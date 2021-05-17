@@ -1,4 +1,4 @@
-### Teaching Transformer Models facts about the world throughpretraining, and accessing that knowledge through finetuning.
+### Teaching Transformer Models facts about the world through pretraining, and accessing that knowledge through finetuning.
 
 
 We train a Transformer model to attempt to answer simple questions of the form *Where was person born?* – **without providing any input text from which to draw the answer.** 

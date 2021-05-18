@@ -4,6 +4,7 @@
 We train a Transformer model to attempt to answer simple questions of the form *Where was person born?* – **without providing any input text from which to draw the answer.** 
 we found that models are able to learn some facts about where people were born through pretraining, and access that information during fine-tuning to answer the questions. 
 This fact is inspired from [Improving Language Understanding by Generative Pre-Training](https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf)
+
 **Birth place** files contains pair of name and a place that particular place was born.
 First we focus on the Finetuning without Pretraining. doing so gave pretty bad results on our transformer model on this this of extractive question answering. 
 Using the above paper as motivation, we pretrained our model on a large wikipedia text. Details are as follow

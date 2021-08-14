@@ -19,4 +19,4 @@ We have implemented different variants of MultiheadAttention mechanism as well.
 
 **Synthesizer Self-Attention** is a very recent alternative to causal self-attention that has potential benefits by removing this dot product. In vanilla self-attention the scoring function returns a block_size * block_size attention scores. This computation is quaratic in the sequence's length. Synthesizer self-attention overcomes this and computes the block_size * block_size matrix of attention scores directly. it is inspired from [Synthesizer: Rethinking Self-Attention in Transformer Models](https://arxiv.org/abs/2005.00743)
 
-Each model with different attention variants take approximately 2 hours to train. 
+Each model with different attention variants take approximately 2 hours to train.  
